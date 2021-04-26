@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="2dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textSize="28sp"
+                android:fontFamily="@font/boogaloo"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/shop_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+
+                />
+
+            <TextView
+                android:id="@+id/shop_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop1"
+                android:textSize="28sp"
+                android:fontFamily="@font/boogaloo"
+                android:layout_toRightOf="@id/shop_name"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/shop_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : "
+                android:textSize="24sp"
+                android:fontFamily="@font/boogaloo"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/shop_phone1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9011842557"
+                android:textSize="24sp"
+                android:fontFamily="@font/boogaloo"
+                android:layout_toRightOf="@id/shop_phone"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/shop_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address : "
+                android:textSize="24sp"
+                android:fontFamily="@font/boogaloo"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/shop_add1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum, or lipsum as is dummy text used in laying out p"
+                android:textSize="20sp"
+                android:fontFamily="@font/boogaloo"
+                android:layout_toRightOf="@id/shop_add"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="0dp"/>
+
+        <Button
+            android:id="@+id/shop_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CheckOut"
+            android:layout_marginTop="10dp"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+        
+    
+</androidx.cardview.widget.CardView>
